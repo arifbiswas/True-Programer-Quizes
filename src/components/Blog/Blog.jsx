@@ -5,7 +5,7 @@ const Blog = () => {
     <div>
       <h1 className="text-purple-400 text-5xl my-12 font-black">Blog</h1>
       <div className="my-12">
-        <div class="w-full md:w-2/3 mx-auto p-5 bg-purple-100 rounded-lg shadow">
+        <div class="w-full md:w-2/3 mx-auto p-5 bg-purple-100 rounded-lg shadow md:my-24">
           <div class="flex items-center justify-center">
             <div class="w-2/3">
               <h2 class="section-heading font-semibold text-3xl text-purple-600 mx-auto">

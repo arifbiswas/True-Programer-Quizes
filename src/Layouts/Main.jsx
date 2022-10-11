@@ -9,10 +9,10 @@ const Main = () => {
 
     return (
         <QuizzesContext.Provider value={quizzes.data}>
-            <div className='relative h-full'>
+            <div className='relative'>
             <Header></Header>
             <Outlet></Outlet>
-            <div className='relative h-full bottom-[0px]' >
+            <div>
             <Footer></Footer>
             </div>
         </div>

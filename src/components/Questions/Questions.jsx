@@ -74,7 +74,7 @@ const Questions = ({
       <div className="bg-purple-400 container py-5 mx-auto rounded-lg my-5 relative ">
         <button
           onClick={showCorrectAnswer}
-          className="relative  top-0 right-[-160px] bg-white py-2 px-4 md:right-[-700px] md:top-5 rounded-full"
+          className="relative  top-0 right-[-140px] bg-white py-2 px-4 md:right-[-700px] md:top-5 rounded-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
