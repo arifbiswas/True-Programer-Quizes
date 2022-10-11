@@ -8,14 +8,13 @@ const Questions = ({
   totalWrong,
   setTotalWrong,
 }) => {
-  // console.log(question);
+  
   const Swal = require("sweetalert2");
   const { correctAnswer, id, question: quiz, options } = question;
   const [right, setRight] = useState(0);
   const [wrong, setWrong] = useState(0);
-  const [checkQuiz, setCheckQuiz] = useState("");
   const showCorrectAnswer = () => {
-    // console.log(correctAnswer);
+  
     Swal.fire({
         title:`Answer is : ${correctAnswer}`,
         text: "Do you want to continue",
@@ -24,9 +23,9 @@ const Questions = ({
       })
   };
   const handleCheckQuiz = (quiz) => {
-    // console.log(quiz);
+   
     if (correctAnswer === quiz) {
-      // console.log('right');
+   
       if (right === 1) {
         return;
       } else {
@@ -44,7 +43,7 @@ const Questions = ({
         }
       }
     } else {
-      // console.log('wrong');
+      
       if (right === 0) {
         if (wrong === 1) {
           return;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Quizzes = ({quiz}) => {
-    // console.log(quiz);
+   
     const {id,logo,name}=quiz;
     return (
         <div className='container mx-auto'>

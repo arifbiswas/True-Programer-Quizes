@@ -6,7 +6,7 @@ import Quizzes from '../Quizzes/Quizzes';
 const Home = () => {
     const quizzes = useContext(QuizzesContext);
     
-    // console.log(quizzes);
+    
     return (
         <div className='bg-gray-100'>
             <header>

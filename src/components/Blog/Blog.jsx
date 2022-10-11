@@ -3,185 +3,108 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <h1 className="text-purple-400 text-5xl my-12">Blog</h1>
-      <div className="space-y-4 container mx-auto">
-        
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 ">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+      <h1 className="text-purple-400 text-5xl my-12 font-black">Blog</h1>
+      <div className="my-12">
+        <div class="w-full md:w-2/3 mx-auto p-5 bg-purple-100 rounded-lg shadow">
+          <div class="flex items-center justify-center">
+            <div class="w-2/3">
+              <h2 class="section-heading font-semibold text-3xl text-purple-600 mx-auto">
+                Questions and Answer
+              </h2>
+            </div>
+          </div>
+           
+              {/* blogs start cart 1 */}
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+          <div class="mt-8 space-y-8">
+            <div>
+              <div class="flex items-start">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-green-500 text-white font-medium text-sm">
+                    Q
+                  </span>
+                </div>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 my-10">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+                <p class="ml-1 md:ml-3 text-2xl">
+                What is the purpose of react-router-dom?
+                </p>
+              </div>
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+              <div class="flex items-start mt-3">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-gray-200 text-gray-800 font-medium text-sm">
+                    A
+                  </span>
+                </div>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 ">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+                <p class="ml-4 md:ml-3 text-gray-800 text-1xl mt-2">
+                React Router Dom is used to build single-page applications i.e. applications that have many pages or components but the page is never refreshed instead the content is dynamically fetched based on the URL. This process is called Routing and it is made possible with the help of React Router Dom.
+                </p>
+                </div>
+                </div>
+          </div>
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+              {/* blogs start cart 2 */}
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 my-10">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+          <div class="mt-8 space-y-8">
+            <div>
+              <div class="flex items-start">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-green-500 text-white font-medium text-sm">
+                    Q
+                  </span>
+                </div>
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+                <p class="ml-1 md:ml-3 text-2xl">
+                How does context api work?
+                </p>
+              </div>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 ">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+              <div class="flex items-start mt-3">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-gray-200 text-gray-800 font-medium text-sm">
+                    A
+                  </span>
+                </div>
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+                <p class="ml-4 md:ml-3 text-gray-800 text-1xl mt-2">
+                The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux..
+                </p>
+                </div>
+                </div>
+          </div>
+              {/* blogs start cart 3 */}
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
-        <details className="group border-l-4 border-green-500 bg-gray-50 p-6 my-20">
-          <summary className="flex cursor-pointer items-center justify-between">
-            <h5 className="text-lg font-medium text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing?
-            </h5>
+          <div class="mt-8 space-y-8">
+            <div>
+              <div class="flex items-start">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-green-500 text-white font-medium text-sm">
+                    Q
+                  </span>
+                </div>
 
-            <span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+                <p class="ml-1 md:ml-3 text-2xl">
+                What is usehref()?
+                </p>
+              </div>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-            veritatis molestias culpa in, recusandae laboriosam neque aliquid
-            libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-            distinctio corporis earum similique!
-          </p>
-        </details>
+              <div class="flex items-start mt-3">
+                <div>
+                  <span class="inline-flex justify-center items-center w-10 h-10 rounded bg-gray-200 text-gray-800 font-medium text-sm">
+                    A
+                  </span>
+                </div>
+
+                <p class="ml-4 md:ml-3 text-gray-800 text-1xl mt-2">
+                The useHref hook returns a URL that may be used to link to the given to location, even outside of React Router. Tip: You may be interested in taking a look at the source for the component in react-router-dom to see how it uses useHref internally to determine its own href value..
+                </p>
+                </div>
+                </div>
+          </div>
 
 
+        </div>
       </div>
     </div>
   );

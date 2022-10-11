@@ -10,8 +10,7 @@ const Header = () => {
       <div className="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          
           className="inline-flex items-center"
         >
 
@@ -23,8 +22,6 @@ const Header = () => {
           <li>
             <NavLink
               to="/home"
-              aria-label="Our product"
-              title="Our product"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
               Home
@@ -43,8 +40,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/blogs"
-              aria-label="Product pricing"
-              title="Product pricing"
+             
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
               Blogs
@@ -53,8 +49,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/contact"
-              aria-label="About us"
-              title="About us"
+              
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
               Contact
@@ -63,8 +58,7 @@ const Header = () => {
         </ul>
         <div className="lg:hidden">
           <button
-            aria-label="Open Menu"
-            title="Open Menu"
+           
             className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >

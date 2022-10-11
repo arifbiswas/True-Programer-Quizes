@@ -6,7 +6,7 @@ import Header from '../components/Header/Header';
 export const QuizzesContext = createContext({})
 const Main = () => {
     const  quizzes = useLoaderData();
-    // console.log(quizzes.data);
+
     return (
         <QuizzesContext.Provider value={quizzes.data}>
             <div className='relative h-full'>

@@ -1,24 +1,24 @@
 import React, { useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import Questions from "../Questions/Questions";
-import { EyeIcon } from "@heroicons/react/24/solid";
+import Swal from "sweetalert2";
 
 const Quiz = () => {
   const quizs = useLoaderData();
 
   const [totalRight, setTotalRight] = useState(0);
   const [totalWrong, setTotalWrong] = useState(0);
-  console.log(totalRight, totalWrong);
+  
   const { data } = quizs;
 
   const { id, name, total, questions } = data;
 
-  // console.log(id);
+  
 
   return (
     <div className={` pt-8 bg-gray-100 border rounded-lg`}>
       <div className="bg-white container py-5 mx-auto rounded-lg">
-        <h1 className="text-4xl text-purple-400 font-bold">{name}</h1>
+        <h1 className="text-4xl text-purple-400 font-bold">Quizzes of {name}</h1>
         <p className="text-2xl mt-5 font-semibold">Total question : {total}</p>
       </div>
       <div>
@@ -34,7 +34,14 @@ const Quiz = () => {
         ))}
       </div>
        
-      <button
+      <button onClick={()=>
+      Swal.fire({
+    title: `${totalRight > totalWrong ?'Good Job':'keep learn More' }`,
+    text: `Total Right answer is : ${totalRight} 
+     Total Wrong answer is : ${totalWrong}`,
+    icon: `${totalRight > totalWrong ?'success':'error'}`,
+    confirmButtonText: "Back",
+  })}
         
         className="bg-purple-400 text-white font-bold py-3 px-5 my-12 rounded-lg"
       >
