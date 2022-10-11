@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <div className="px-4 py-5 shadow-md mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 header-container z-10">
+        <div className="px-4 py-5 shadow-md mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 header-container ">
       <div className='container mx-auto'>
       <div className="relative flex items-center justify-between">
         <a
