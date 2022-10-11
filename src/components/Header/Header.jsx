@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <div className="px-4 py-5 shadow-md mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 header-container ">
+        <div className="px-4 py-5 shadow-md mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 header-container z-10">
       <div className='container mx-auto'>
       <div className="relative flex items-center justify-between">
         <a
@@ -30,8 +30,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/showchart"
-              aria-label="Our product"
-              title="Our product"
+              
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
               ShowChart
@@ -84,8 +83,7 @@ const Header = () => {
                   <div>
                     <a
                       href="/"
-                      aria-label="Company"
-                      title="Company"
+                      
                       className="inline-flex items-center"
                     >
                     
@@ -96,8 +94,7 @@ const Header = () => {
                   </div>
                   <div>
                     <button
-                      aria-label="Close Menu"
-                      title="Close Menu"
+                     
                       className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                       onClick={() => setIsMenuOpen(false)}
                     >
@@ -115,8 +112,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         to="/home"
-                        aria-label="Our product"
-                        title="Our product"
+                        
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                       >
                         Home
@@ -125,8 +121,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         to="/showchart"
-                        aria-label="Our product"
-                        title="Our product"
+                        
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                       >
                         ShowChart
@@ -135,8 +130,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         to="/blogs"
-                        aria-label="Product pricing"
-                        title="Product pricing"
+                      
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                       >
                         Blogs
@@ -145,8 +139,7 @@ const Header = () => {
                     <li>
                       <NavLink
                         to="/contact"
-                        aria-label="About us"
-                        title="About us"
+                        
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                       >
                         Contact
