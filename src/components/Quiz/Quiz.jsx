@@ -10,8 +10,9 @@ const Quiz = () => {
     const [totalRight,setTotalRight]=useState(0);
     const [totalWrong,setTotalWrong]=useState(0);
     console.log(totalRight,totalWrong);
-    const {data}=quizs;
-    const { id, name, total, questions } = data;
+    const { data } = quizs;
+    
+    const { id, name, total, questions } = data; 
     // console.log(id);
 
     
